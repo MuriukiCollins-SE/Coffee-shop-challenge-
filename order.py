@@ -16,7 +16,7 @@ class Order:
         Order._all_orders.append(self)
 
     @property
-    def customer(self)
+    def customer(self):
         return self._customer
 
     @property
