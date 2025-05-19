@@ -7,7 +7,7 @@ class Coffee:
         self._name = name
 
     @property
-    def name(self)
+    def name(self):
         return self._name
 
     def orders(self):
