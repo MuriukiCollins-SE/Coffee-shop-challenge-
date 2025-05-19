@@ -44,7 +44,7 @@ class Customer:
         top_customers = [c for c, s in spending.items() if s == max_spending]
         
         # If there's a tie, select the customer with the highest single order price
-        if len(top_customers) > 1
+        if len(top_customers) > 1:
             return max(top_customers, key=lambda c: (max_single_order[c], c.name))
         
         return top_customers[0]
