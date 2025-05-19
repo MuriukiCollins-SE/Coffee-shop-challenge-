@@ -8,7 +8,7 @@ from coffee import Coffee
 from order import Order
 
 @pytest.fixture(autouse=True)
-def clear_orders():
+def clear_orders()
     Order._all_orders.clear()
 
 def test_coffee_name_validation():
