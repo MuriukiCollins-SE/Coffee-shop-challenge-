@@ -16,7 +16,7 @@ class Order:
         Order._all_orders.append(self)
 
     @property
-    def customer(self):
+    def customer(self)
         return self._customer
 
     @property
@@ -29,4 +29,4 @@ class Order:
 
     @classmethod
     def all(cls):
-        return cls._all_orders
+        return cls._all_ordersasa
