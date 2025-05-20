@@ -48,3 +48,7 @@ class Customer:
             return max(top_customers, key=lambda c: (max_single_order[c], c.name))
         
         return top_customers[0]
+#an example of an instance
+if __name__ == "__main__":
+    customer1 = Customer("Alice")
+    print(customer1.name)  # Output: Alice
